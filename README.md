@@ -3,8 +3,7 @@
 🚀 A Machine Learning powered web application built using **Streamlit** to predict **flight ticket prices** and compare multiple regression models in real time.
 
 🔗 **Live App:**  
-👉 https://your-streamlit-app-link-here  
-_(Replace this after Streamlit deployment)_
+👉 https://flypredict.streamlit.app/
 
 ---
 
