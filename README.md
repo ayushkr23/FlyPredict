@@ -160,4 +160,4 @@ If you like this project, consider giving it a ⭐ on GitHub!
 
 ## 📝 License
 
-This project is intended for educational and academic purposes.
+This project is licensed under the MIT License.
