@@ -337,7 +337,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-DATA_PATH = "C:/Users/ayush/Downloads/Flight Price Prediction/Datasets/Clean_Dataset.csv"
+DATA_PATH = "Dataset/Clean_Dataset.csv"
 ENCODERS_PATH = "Models/encoders.pkl"
 SCALER_PATH = "Models/scaler.pkl"
 RF_PATH = "Models/model_rf.pkl"
@@ -758,4 +758,5 @@ with tab2:
             xaxis=dict(tickfont=dict(color='#8b949e'), gridcolor='#21262d'),
             yaxis=dict(tickfont=dict(color='#8b949e'), gridcolor='#21262d')
         )
+
         st.plotly_chart(fig_scatter, use_container_width=True)
