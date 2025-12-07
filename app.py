@@ -451,7 +451,7 @@ def load_data():
         df = df.drop('Unnamed: 0', axis=1)
     return df
 
-encoders, scaler, models, feature_order = train_and_save_models()
+encoders, scaler, models, feature_order = load_resources()
 df_raw = load_data()
 
 with st.sidebar:
@@ -760,3 +760,4 @@ with tab2:
         )
 
         st.plotly_chart(fig_scatter, use_container_width=True)
+
