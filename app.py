@@ -53,14 +53,14 @@ st.markdown("""
     }
     
     .main-title {
-        font-size: 2rem;
+        font-size: 2.1rem;
         font-weight: 700;
         color: #f0f6fc;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.26rem;
     }
     
     .main-subtitle {
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: #8b949e;
         margin-bottom: 2rem;
     }
@@ -87,7 +87,7 @@ st.markdown("""
     .price-card {
         background: linear-gradient(135deg, #0969da 0%, #1f6feb 50%, #388bfd 100%);
         border-radius: 16px;
-        padding: 2rem;
+        padding: 2.05rem;
         color: white;
         margin: 1.5rem 0;
     }
@@ -505,7 +505,7 @@ with st.sidebar:
     days_left = st.slider("Days", min_value=1, max_value=49, value=15, format="%d days", label_visibility="collapsed")
     
     st.markdown("<br>", unsafe_allow_html=True)
-    predict_button = st.button("✨ Predict Price", use_container_width=True)
+    predict_button = st.button("Predict Price", use_container_width=True)
 
 col_header1, col_header2 = st.columns([3, 1])
 with col_header1:
@@ -554,7 +554,7 @@ with tab1:
             </div>
             <div class="price-value">₹ {rf_price:,.0f}</div>
             <div class="price-meta">
-                <span class="r2-badge">📈 R² Score: 0.984</span>
+                <span class="r2-badge"> R² Score: 0.984</span>
                 <span class="model-name">Random Forest Model (Best Accuracy)</span>
             </div>
         </div>
@@ -760,4 +760,5 @@ with tab2:
         )
 
         st.plotly_chart(fig_scatter, use_container_width=True)
+
 
